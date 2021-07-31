@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+.navbar{
+    padding-top: 1rem;
+    width: 95%;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links > ul, .links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links>ul>li{
+    margin-left:2rem;
+    cursor: pointer;
+}
+
+.logo{
+    font-family: 'Redressed', sans-serif;
+    font-size:2.5rem
+}
+
+.signup{
+    margin-left:2rem;
+    padding: 0.5rem;
+    background-color: #00BB78 ;
+    color: black;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+    font: inherit;
+    border-radius: .5rem;
+    cursor: pointer;
+}
